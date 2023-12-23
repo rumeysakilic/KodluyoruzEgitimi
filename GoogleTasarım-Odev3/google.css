@@ -1,0 +1,99 @@
+.image_style {
+    padding-left: 150px;
+    padding-right: 70px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.menuler{
+    display: flex;
+    line-height: 200px;
+}
+
+.s-input {
+   display: block;
+   position: relative;
+   border: 1px solid #141313;
+   color: rgba(0,0,0,0.87);
+   font-size: 14px;
+   padding: 13px;
+   padding-left: 10px;
+   margin-left: 150px;
+   width: 400px;
+   height: 5px;
+   outline: none; 
+}
+
+.s-input:hover {
+    box-shadow: 1px 1px 5px;
+}
+
+.s-input1 {
+   border: 1px solid #141313;
+   color: rgba(0,0,0,0.87);
+   font-size: 14px;
+   padding: 25px;
+   height: 1px;
+}
+
+.box1 {
+    background-color: rgb(235, 229, 229);
+    width: 910px;
+    height: 80px;
+    padding: 5px 15px;
+    text-align:center;
+    display: inline-block;
+    margin: auto;
+} 
+
+.box2 {
+    background-color: aquamarine;
+    width: 250px;
+    float: left;
+    margin: 5px 5px;
+}
+
+.box3 {
+    background-color: aquamarine;
+    width: 185px;
+    float: none;
+    margin: 5px 5px;
+}
+
+.box4 {
+    background-color: aquamarine;
+    width: 475px;
+    float: right;
+    margin: 5px 5px;
+}
+
+.button {
+    height: 15px;
+    width: 220px;
+    color: #151414;
+    background-color: #e5ebe7;
+    font-size: 14px;
+    border: 1px solid #171717;
+    border-radius: 7px;
+    padding: 15px 50px;
+}
+
+button:hover {
+    color: #2d63c8;
+    background-color: #ffffff;
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    word-break: break-all;
+}
+
+p {
+    text-align: center;
+    line-height: 3px;
+}
+
+.alt-bilgi {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
