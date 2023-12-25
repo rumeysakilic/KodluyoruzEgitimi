@@ -6,6 +6,11 @@
 
 ![Ekran görüntüsü 2023-12-17 195148](https://github.com/rumeysakilic/KodluyoruzEgitimi/assets/111907567/d37a01a1-5a88-47ac-995e-3969188ebc75)
 
+
 --- Yemek Tarifi dosyasının içindeki proje ---
 ![Ekran görüntüsü 2023-12-18 174712](https://github.com/rumeysakilic/KodluyoruzEgitimi/assets/111907567/87999325-5191-4822-bde2-e1d680f45de4)
+
+
+---Bitirme Projesi: Basit bir web sitesi ---
+![Ekran görüntüsü 2023-12-25 204249](https://github.com/rumeysakilic/KodluyoruzEgitimi/assets/111907567/58d5f24b-f408-44b6-9e15-f38cbec2cfb5)
 
