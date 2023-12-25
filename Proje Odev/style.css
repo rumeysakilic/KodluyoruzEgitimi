@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(bilgisayar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0; /*alttan üstten sağdan soldan*/
+    align-items: center; /*ögelerin dikey hizalanmasını sağlar. Flex kapsayıcı içindeki tüm ögeler esnek kapsayıcının çapraz eksenine göre ortalı şekilde sıralanır*/
+    justify-content: space-between; /*one    two
+                                     three      */                              
+}
+
+.logo {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navbar ul li {
+    list-style: none;  /*Baştaki noktalar siler*/
+    display: inline-block;  /*yan yana koyar*/
+    margin: 0 25px; /*Alttan üstten 0 ve sağ sol 25*/
+} 
+
+.navbar ul li a {
+    text-decoration: none;  /*Alt çizgileri yok et*/
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    box-shadow: 0 5px wheat;
+    transition: 1s;
+}
+
+.content {
+    width: 100%;
+    position: absolute; /*Sayfanın kenarlarına göre pozisyonunu ayarlasın*/
+    top: 40%; /*üstten %40 lık boşlukk*/ 
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 65px;
+}
+
+.content p {
+    margin: 20px auto; /*alttan üstten 20, sağdan soldan ortala*/
+}
+
+button {
+    width: 200px;
+    padding: 15px 0; /*Butonun içinde üst kenar arası boşluk*/
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600; /*font kalınlığı*/
+    background-color: #6166b3;
+    font-size: 17px;
+}
+button:hover {
+    color: black;
+    transition: 1s;
+}
